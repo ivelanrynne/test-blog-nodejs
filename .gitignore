@@ -1,0 +1,129 @@
+# ==========================================
+# 1. Dependency Directories
+# ==========================================
+node_modules/
+**/node_modules/
+.pnpm-store/
+.yarn/cache
+.yarn/unplugged
+
+# ==========================================
+# 2. Environment Variables & Credentials
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.pfx
+config.local.json
+secrets.json
+
+# ==========================================
+# 3. Build & Production Outputs
+# ==========================================
+dist/
+dist-ssr/
+build/
+out/
+bin/
+obj/
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ==========================================
+# 4. Logs & Debugging
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# 5. API Testing Tools (Postman, Insomnia, Bruno)
+# ==========================================
+postman/
+.postman/
+*.postman_collection.json
+*.postman_environment.json
+.insomnia/
+bruno/
+
+# ==========================================
+# 6. IDEs & Text Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sw?
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==========================================
+# 7. Web Frameworks & Caches
+# ==========================================
+.cache/
+.eslintcache
+.stylelintcache
+.vite/
+.next/
+.nuxt/
+.vuepress/
+.parcel-cache/
+.turbo/
+.svelte-kit/
+
+# ==========================================
+# 8. Databases & Storage
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ==========================================
+# 9. Test Coverage & Reports
+# ==========================================
+coverage/
+.nyc_output/
+cypress/screenshots/
+cypress/videos/
+playwright-report/
+blob-report/
+test-results/
+
+# ==========================================
+# 10. Operating System & System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# 11. Temporary & Backup Files
+# ==========================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
