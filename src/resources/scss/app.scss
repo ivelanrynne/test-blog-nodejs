@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+
+.test {
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+p {
+    color: $blue-color;
+}

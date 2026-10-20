@@ -1,3 +1,13 @@
+// ignore files/folders for no conflict!
+
+src/public/css
+
+
+
+
+
+
+
 # ==========================================
 # 1. Dependency Directories
 # ==========================================

@@ -18,16 +18,22 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon --inspect index.js",
-    "start": "nodemon --inspect --watch index.js"
+    "dev": "nodemon --inspect src/index.js",
+    "start": "nodemon --inspect --watch src/index.js",
+    "ssbuild": "sass src/resources/scss/app.scss src/public/css/app.css",
+    "ssw": "sass --watch src/resources/scss/:src/public/css/"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "dotenv": "^18.0.8",
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "express-handlebars": "^9.0.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "morgan": "^1.12.1",
+    "nodemon": "^3.1.14",
+    "sass": "^1.105.2"
   }
 }
